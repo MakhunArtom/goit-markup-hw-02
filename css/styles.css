@@ -1,0 +1,87 @@
+:root {
+  --headings-color: #212121;
+  --text-color: #757575;
+  --hover-color: #2196f3;
+  --background-color: #2f303a;
+  --hero-address-color: #ffffff;
+}
+
+body {
+  background-color: #fff;
+  color: var(--text-color);
+}
+
+/*.................Header ................*/
+
+.logo {
+  color: #000000;
+}
+.logo-web {
+  color: var(--hover-color);
+}
+.nav-list .link {
+  color: var(--headings-color);
+}
+.nav-list .link:hover,
+.nav-list .link:focus {
+  color: var(--hover-color);
+}
+.nav-list .link.current {
+  color: var(--hover-color);
+}
+
+.contacts .contacts-list {
+  color: var(--text-color);
+}
+.contacts .contacts-list:hover,
+.contacts .contacts-list:focus {
+  color: var(--hover-color);
+}
+
+/* .................Hero................... */
+.hero {
+  background-color: var(--background-color);
+}
+.hero .hero-title {
+  color: var(--hero-address-color);
+}
+.hero .hero-button {
+  background-color: var(--hover-color);
+  color: var(--hero-address-color);
+}
+
+/*.................. Достоинства.......... */
+.dignity .dignity-title {
+  color: var(--headings-color);
+}
+
+/*.......... Чем мы занимаемся............. */
+.doing .doing-title {
+  color: var(--headings-color);
+}
+
+/* ..............Наша команда ................*/
+.command .command-title {
+  color: var(--headings-color);
+}
+
+/* ..................Footer................. */
+.footer {
+  background-color: var(--background-color);
+}
+
+.footer .footer-logo,
+.addresses .addresses-text {
+  color: var(--hero-address-color);
+}
+
+.addresses .addresses-mail,
+.addresses .addresses-tel {
+  color: rgba(255, 255, 255, 0.6);
+}
+.addresses .addresses-mail:hover,
+.addresses .addresses-mail:focus,
+.addresses .addresses-tel:hover,
+.addresses .addresses-tel:focus {
+  color: var(--hover-color);
+}
