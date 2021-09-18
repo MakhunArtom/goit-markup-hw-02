@@ -85,6 +85,9 @@ body {
   background-color: var(--hover-color);
   color: var(--hero-address-color);
 }
+.hero .hero-button {
+  cursor: pointer;
+}
 
 /*.................. Достоинства.......... */
 .dignity-item .dignity-title {
@@ -188,12 +191,12 @@ body {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
+  background-color: #f5f4fa;
   color: var(--headings-color);
 }
 
-.button-list .button-item:hover,
-.button-list .button-item:focus {
-  color: var(--hover-color);
+.button-item {
+  cursor: pointer;
 }
 
 /*............. project................. */
