@@ -195,6 +195,7 @@ body {
 }
 
 .navigator-button {
+  background-color: #f5f4fa;
   cursor: pointer;
 }
 .navigator-button:hover,
