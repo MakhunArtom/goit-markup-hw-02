@@ -78,6 +78,8 @@ body {
   color: var(--hero-address-color);
 }
 .hero .hero-button {
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -190,6 +192,8 @@ body {
 /*....... ..........button................ */
 
 .navigator-button {
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
